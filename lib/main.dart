@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/home_page.dart';
 import 'SignInScreen.dart';
-import 'SignInScreen.dart';
-import 'SignInScreen.dart';
 import 'sidebar/graph.dart';
 
 void main() {
@@ -15,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Electionly',
+      title: 'Vottzy',
       theme: ThemeData(
         primarySwatch: Colors.orange,
       ),
@@ -34,6 +32,7 @@ class MyApp extends StatelessWidget {
       ),
       '/SignIn':(context) => SignInScreen(),
       '/graphs': (context) => Graph1(),
+      '/home': (context) => Homepage(),
       },
     
       

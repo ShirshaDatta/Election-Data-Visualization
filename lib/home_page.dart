@@ -3,7 +3,7 @@ import 'package:flutter_app/sidebar/sidebar.dart';
 
 import 'sidebar/sidebar_layout.dart';
 
-class homepage extends StatelessWidget {
+class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

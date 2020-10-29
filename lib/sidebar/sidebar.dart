@@ -76,7 +76,7 @@ class _SideBarState extends State<SideBar>
                       SizedBox(height: 100),
                       ListTile(
                         title: Text(
-                          "Dakshi",
+                          "Daksh Malik",
                           style: TextStyle(
                               color: Colors.white,
                               fontSize: 30,
