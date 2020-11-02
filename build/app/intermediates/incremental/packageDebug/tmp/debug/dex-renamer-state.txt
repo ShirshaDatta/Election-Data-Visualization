@@ -1,4 +1,4 @@
-#Mon Nov 02 02:33:40 IST 2020
+#Mon Nov 02 20:15:27 IST 2020
 base.0=F\:\\hacktober 2020\\flutter_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

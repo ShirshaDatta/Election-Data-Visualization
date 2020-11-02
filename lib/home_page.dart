@@ -1,9 +1,41 @@
+
 import 'package:flutter/material.dart';
 import 'package:flutter_app/sidebar/sidebar.dart';
 
 import 'sidebar/sidebar_layout.dart';
 
-class Homepage extends StatelessWidget {
+class HomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("data"),
+      ),
+      drawer: Drawer(
+        child: SingleChildScrollView(child: SideBar()),
+      ),
+      body: SingleChildScrollView(child: Column(
+       children: [
+         Text("2019 Election Details",
+         style: TextStyle(fontWeight: FontWeight.bold),),
+         Card(
+           child: Image.asset('assets/page1_2019.PNG'),
+           shadowColor: Colors.deepOrange,
+           ),
+         FlatButton(         color: Colors.orangeAccent,
+           child:
+         Text("click to view graphs") ,onPressed: ()
+         {
+           Navigator.pushNamed(context, "/graphs");
+         })
+       ],
+      )
+      ),
+    );
+  }
+}
+
+/*class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -146,3 +178,4 @@ class Homepage extends StatelessWidget {
     //todo add the data of the election you are using as text
   }
 }
+*/

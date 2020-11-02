@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
       ),
       '/SignIn':(context) => SignInScreen(),
       '/graphs': (context) => Graph1(),
-      '/home': (context) => Homepage(),
+      '/home': (context) => HomePage(),
       },
     
       
