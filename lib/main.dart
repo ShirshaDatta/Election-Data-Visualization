@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/home_page.dart';
+import 'package:flutter_app/pages/homepage.dart';
 import 'SignInScreen.dart';
 import 'sidebar/graph.dart';
 
@@ -19,18 +19,8 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/':(context) => WillPopScope(
-        onWillPop: () async => false,
-        child: Scaffold(
-          backgroundColor: Colors.orange,
-          body: SafeArea(
-            child: Padding(
-                padding: const EdgeInsets.only(bottom: 5.0),
-                child: SignInScreen()),
-          ),
-        ),
-      ),
-      '/SignIn':(context) => SignInScreen(),
+       
+      '/':(context) => SignInScreen(),
       '/graphs': (context) => Graph1(),
       '/home': (context) => HomePage(),
       },
