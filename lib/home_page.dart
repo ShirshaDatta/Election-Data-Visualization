@@ -22,11 +22,25 @@ class HomePage extends StatelessWidget {
            child: Image.asset('assets/page1_2019.PNG'),
            shadowColor: Colors.deepOrange,
            ),
-         FlatButton(         color: Colors.orangeAccent,
+         FlatButton(         
+           color: Colors.orangeAccent,
            child:
          Text("click to view graphs") ,onPressed: ()
          {
            Navigator.pushNamed(context, "/graphs");
+         }),
+         Text("2014 Election Details",
+         style: TextStyle(fontWeight: FontWeight.bold),),
+         Card(
+           child: Image.asset('assets/page1_2014.PNG'),
+           shadowColor: Colors.deepOrange,
+           ),
+         FlatButton(         
+           color: Colors.orangeAccent,
+           child:
+         Text("click to view graphs") ,onPressed: ()
+         {
+           Navigator.pushNamed(context, "/graphs1");
          })
        ],
       )
