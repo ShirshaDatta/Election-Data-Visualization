@@ -1,31 +1,25 @@
+//import 'package:flutter_app/jsonReader/jsonWorkoutReader.dart';
+//import 'package:flutter_app/pages/dashboard.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_app/pages/homepage.dart';
-import 'SignInScreen.dart';
-import 'sidebar/graph.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter_app/pages copy/homePage.dart';
+//import 'package:flutter_app/pages/homepage.dart';
 
-void main() {
+Future main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+  static final String title = 'Google SignIn';
+
   @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Vottzy',
-      theme: ThemeData(
-        primarySwatch: Colors.orange,
-      ),
-      initialRoute: '/',
-      routes: {
-       
-      '/':(context) => SignInScreen(),
-      '/graphs': (context) => Graph1(),
-      '/home': (context) => HomePage(),
-      },
-    
-      
-    );
-  }
+  Widget build(BuildContext context) => MaterialApp(
+        debugShowCheckedModeBanner: false,
+        title: title,
+        theme: ThemeData(primarySwatch: Colors.deepOrange),
+        home: HomePage(),
+      );
 }

@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+/*import 'package:flutter/material.dart';
 import 'pages/homepage.dart';
 
 class SignInScreen extends StatefulWidget {
@@ -65,7 +65,7 @@ class _SignInScreenState extends State<SignInScreen> {
             )
 
           ],
-        ),
+        ),*/
         /*alignment: Alignment.center,
         decoration: BoxDecoration(
             gradient: LinearGradient(
@@ -85,13 +85,13 @@ class _SignInScreenState extends State<SignInScreen> {
             SizedBox(height: 100),
             
           ],
-        ),*/
+        ),
       ),
     );
   }
 }
 
-/*Widget _signInButton(BuildContext context) {
+Widget _signInButton(BuildContext context) {
   return Container(
     decoration: BoxDecoration(
       boxShadow: [

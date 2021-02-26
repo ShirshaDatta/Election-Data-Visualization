@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "972713728934",
+    "project_id": "electiondataviz",
+    "storage_bucket": "electiondataviz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:972713728934:android:8cf344d677716b57c00d67",
+        "android_client_info": {
+          "package_name": "com.example.flutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "972713728934-0heh71n1gf12pbnr02m6bil2i4vvp9nv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6VdkJ5fRumM_LpklhkdBDALP2PTK806g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "972713728934-0heh71n1gf12pbnr02m6bil2i4vvp9nv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

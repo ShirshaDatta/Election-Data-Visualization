@@ -1,5 +1,5 @@
 
-import 'package:flutter_app/main.dart';
+/*import 'package:flutter_app/main.dart';
 import 'package:flutter/material.dart';
 
 class Graph1 extends StatelessWidget {
@@ -66,3 +66,4 @@ class Graph1 extends StatelessWidget {
     );
   }
 }
+*/

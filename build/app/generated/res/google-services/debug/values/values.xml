@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">972713728934-0heh71n1gf12pbnr02m6bil2i4vvp9nv.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">972713728934</string>
+    <string name="google_api_key" translatable="false">AIzaSyD6VdkJ5fRumM_LpklhkdBDALP2PTK806g</string>
+    <string name="google_app_id" translatable="false">1:972713728934:android:8cf344d677716b57c00d67</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD6VdkJ5fRumM_LpklhkdBDALP2PTK806g</string>
+    <string name="google_storage_bucket" translatable="false">electiondataviz.appspot.com</string>
+    <string name="project_id" translatable="false">electiondataviz</string>
+</resources>

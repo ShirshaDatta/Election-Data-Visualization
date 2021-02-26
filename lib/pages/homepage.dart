@@ -1,5 +1,5 @@
 
-import 'package:flutter/material.dart';
+/*import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -84,7 +84,7 @@ class HomePage extends StatelessWidget {
   }
 }
 
-/*class Homepage extends StatelessWidget {
+class Homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -226,5 +226,4 @@ class HomePage extends StatelessWidget {
     );
     //todo add the data of the election you are using as text
   }
-}
-*/
+}*/
